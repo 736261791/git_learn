@@ -23,7 +23,14 @@
 	-将跟踪列表中的文件提供到本地仓库，-m指定提交日志（备注信息）
 	-例：git commit -m "新增a.txt"
 
-#
+#git log:
+	-查看提交日志,含id
+
+#git reflog:
+	-查看所有记录，包括回退记录，含id
+
+#git reset --hard id:
+	-回退到id对应的版本
 
 
 
