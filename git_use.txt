@@ -25,12 +25,27 @@
 
 #git log:
 	-查看提交日志,含id
+	-HEAD为当前版本
 
 #git reflog:
 	-查看所有记录，包括回退记录，含id
 
 #git reset --hard id:
 	-回退到id对应的版本
+
+
+###远程仓库的使用###
+
+常用：
+	-https://github.com
+	-https://gitee.com
+
+#注册账号、创建仓库
+
+#git remote add 仓库别名 仓库地址（网站里复制）
+	-添加远程仓库地址，别名自取,常用origin
+
+#
 
 
 
